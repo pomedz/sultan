@@ -241,7 +241,7 @@ export default function AdminDashboard() {
 
   const handleLogin = () => {
     // Simple demo authentication - in production, use proper auth
-    if (loginForm.username === "admin" && loginForm.password === "nooruha2025") {
+    if (loginForm.username === "admin" && loginForm.password === "sultan2025") {
       setIsAuthenticated(true)
     } else {
       alert("Invalid credentials. Use admin/nooruha2025")
@@ -395,7 +395,7 @@ export default function AdminDashboard() {
         <Card className="w-full max-w-md">
           <CardHeader className="text-center">
             <CardTitle className="text-2xl text-nooruha-primary">Admin Login</CardTitle>
-            <CardDescription>Masuk ke dashboard admin Nooruha Travel</CardDescription>
+            <CardDescription>Masuk ke dashboard admin Sultan Haramain Travel</CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
             <div>
@@ -422,7 +422,7 @@ export default function AdminDashboard() {
             </Button>
             <Alert>
               <AlertDescription className="text-xs">
-                Demo credentials: admin / nooruha2025
+                Demo credentials: admin / sultan2025
               </AlertDescription>
             </Alert>
           </CardContent>
@@ -438,7 +438,7 @@ export default function AdminDashboard() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-4">
-              <h1 className="text-xl font-bold text-nooruha-dark">Nooruha Admin Dashboard</h1>
+              <h1 className="text-xl font-bold text-nooruha-dark">Sultan Haramain Admin Dashboard</h1>
             </div>
             <div className="flex items-center space-x-4">
               <Button variant="outline" onClick={() => setIsAuthenticated(false)}>
